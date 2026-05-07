@@ -1,13 +1,35 @@
+# MLflow
 mlflow.db
 mlartifacts/
+mlruns/
+
+# Build artifacts
 models/
 outputs/
+
+# Data (được DVC track)
 data/train_phase1.csv
 data/eval.csv
 data/train_phase2.csv
+
+# Secrets — TUYỆT ĐỐI không commit
+aws-credentials.json
 sa-key.json
 .env
+*.pem
+*.key
+
+# Python
 .venv/
+venv/
 __pycache__/
 *.pyc
+*.pyo
+
+# IDE
+.idea/
+.vscode/
+*.swp
 .DS_Store
+BLUEPRINT.md
+tips
