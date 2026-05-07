@@ -145,5 +145,5 @@ jobs:
             # TODO 7: Restart service mlops-serve tren VM
             sudo systemctl restart mlops-serve
             # TODO 8: Cho server san sang roi goi curl /health de xac nhan
-            sleep 5
+            sleep 10
             curl -sf http://localhost:8000/health && echo "Health check passed." || exit 1
