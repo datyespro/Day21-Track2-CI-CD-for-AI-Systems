@@ -29,4 +29,4 @@ Bộ tham số này giúp mô hình xử lý tốt sự mất cân bằng dữ l
   - **Cách giải quyết:** Đã config file `.gitignore` để tự động loại bỏ các file `*.csv` thô, sau đó thao tác tuần tự `dvc push` (để đẩy dữ liệu lên AWS S3) rồi mới `git push` (để kích hoạt GitHub Actions).
 
 ---
-*(Đính kèm 4 ảnh chụp màn hình riêng lẻ hoặc dán trực tiếp vào cuối file báo cáo này)*
+
